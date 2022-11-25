@@ -44,7 +44,7 @@
 4. udp
 5. socket
 6. netty
-7. servlet、jsp
+7. servlet
 
 **JDK8(java核心技术卷1)** 
 
@@ -52,7 +52,7 @@
 List、ArrayList、LinkedList、Set、HashSet、TreeSet、Map、HashMap、TreeMap、ConcurrentHashMap、BitMap、Queue、ConcurrentLinkedQueue、Stack、Collections的synchronized方法
 
 **工具类**
-jackson、JavaEE开发、JSP/Servlet 3.x、Session/Cookie、jstl/EL、Hutools
+jackson、JavaEE开发、Servlet 3.x、Session/Cookie、jstl/EL、Hutools
 
 **框架**
 Spring IOC AOP SpringMVC MyBatis Shiro Netty
@@ -123,7 +123,6 @@ mbg
 2. servlet实现原理
 3. jstl和EL表达式
 4. 监听器和过滤器
-5. jsp相关知识
 
 **Spring** 
 1. Spring的IOC
