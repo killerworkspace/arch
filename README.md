@@ -1,26 +1,30 @@
 # 知识体系梳理
 
-### 操作系统(服务器) 
+### 服务器
 
 1. Tomcat(Selvlet容量)，Jetty
 2. Nginx/Tengine(Web应用服务器)
 3. 磁盘、IO、网络、CPU
 4. Linux 发行版(Server) Ubuntu Redhat CentOS
 
-### 计算机基础 
+### 计算机组成原理
 
-计算机组成原理、编译原理 
+计算机组成原理、冯诺依曼与哈佛结构、层次化存储架构
+
+### 操作系统
+
+信号量、设备管理和文件管理、存储管理、进程管理、嵌入式和微内核
 
 ### 网络 
 
-1. 互联网协议
-2. TCP/IP(TCP/IP协议簇)
-   1. TCP与UDP
-3. HTTP1.1/2/0
+1. 网络分层
+2. 互联网协议
+3. TCP/IP/UDP
+4. Http1.1/2/0
    1. 状态码
-4. HTTPS
-5. OAuth 2.0
-6. REST
+5. HttpS
+6. OAuth 2.0
+7. REST
 
 ### Java编程 
 
@@ -32,7 +36,7 @@
 **版本控制：** 
 
 1. Git
-2. SVN
+2. Svn
 
 **Java基础：** 
 
@@ -54,75 +58,17 @@
 
 **JDK8(java核心技术卷1)** 
 
-集合框架 
+**集合框架** 
 
-List 
+List、ArrayList、LinkedList、Set、HashSet、TreeSet、Map、HashMap、TreeMap、ConcurrentHashMap、BitMap、Queue、ConcurrentLinkedQueue、Stack、Collections的synchronized方法
 
-ArrayList 
+**工具类**
 
-LinkedList 
+jackson、JavaEE开发、JSP/Servlet 3.x、Session/Cookie、jstl/EL、Hutools
 
-Set 
+**框架**
 
-HashSet 
-
-TreeSet 
-
-Map 
-
-HashMap 
-
-TreeMap 
-
-ConcurrentHashMap 
-
-BitMap 
-
-Queue 
-
-ConcurrentLinkedQueue 
-
-Stack 
-
-Collections的synchronized方法 
-
-**工具类** 
-
-Google guava（推荐） 
-
-Apache common lang /BeanUtils/Connections/IO 
-
-JSON 
-
-Fastjson 
-
-gson 
-
-jackson 
-
-JavaEE开发 
-
-JSP/Servlet 3.x 
-
-Session/Cookie 
-
-jstl/EL 
-
-**框架** 
-
-Spring 
-
-IOC 
-
-AOP 
-
-SpringMVC 
-
-Mybatis 
-
-Shiro 
-
-Netty 
+Spring IOC AOP SpringMVC MyBatis Shiro Netty
 
 **高级特性** 
 
@@ -184,6 +130,10 @@ Maven(推荐Maven实战)
 
 Gradle 
 
+**代码生成工具**
+
+mbg
+
 ### 框架 
 
 **集合框架** 
@@ -209,7 +159,7 @@ Gradle
 7. stream API
 8. 自定义注解
 
-**http协议** 
+**Http协议** 
 
 1. Tomcat服务器
 2. servlet实现原理
@@ -234,14 +184,14 @@ Gradle
 4. 拦截器
 5. 基础源码
 
-**mybatis** 
+**MyBatis** 
 
 1. 实现原理
 2. 映射文件
 3. 动态SQL
 4. 缓存机制
 5. 基础源码
-6. mybatis-plus 的应用
+6. MyBatis-plus 的应用
 
 **SpringBoot** 
 
@@ -307,7 +257,7 @@ MVP
 
 **基本设计模式** 
 
-**创建型模式 4 **
+**创建型模式 **
 
 1. 工厂方法模式（Factory Method） 动态生成对象，子类决定实例化
 2. 抽象工厂模式（Abstract Factory） 生产成系列对象，抽象接口
@@ -315,7 +265,7 @@ MVP
 4. 原型模式（Prototype）克隆对象，原型事例，拷贝
 5. 单例模式（Singleton）单实例，唯一实例
 
-**结构型模式 7**
+**结构型模式**
 
 1. 适配器模式（Adapter）转换、兼容接口
 2. 桥接模式（Bridge） 继承树拆分，抽象和实现分离, 将类的抽象部分和实现部分分开
@@ -325,7 +275,7 @@ MVP
 6. 享元模式（Flyweight） 汉字编码，细粒度，共享
 7. 代理模式（Proxy）  快捷方式，代理控制
 
-**行为模式  12**
+**行为模式**
 
 1. 责任链模式（Chain of Responsibility） 传递职责，请求，链接
 2. 命令模式（Command） 日志记录，可撤销
@@ -405,28 +355,6 @@ Memocached
 
 Redis(重要) 
 
-**关系型数据库** 
-
-MySQL 
-
-引擎 
-
-分区表
-
-分库分表 
-
-SQL优化 
-
-SQL注入 
-
-事务隔离级别 
-
-锁 
-
-数据库设计 
-
-其它 
-
 **搜索引擎** 
 
 Solr 
@@ -467,6 +395,8 @@ Paxos
 
 ##### MySQL
 
+MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 数据库设计 其它 
+
 **基础语法** 
 
 DDL（数据定义语言） 
@@ -477,7 +407,7 @@ DCL（数据控制语言）
 
 **数据库表设计** 
 
-视图、完整性约束 
+三范式、视图、完整性约束 
 
 **索引机制** 
 
@@ -508,37 +438,40 @@ DCL（数据控制语言）
 
 **JDBC** 
 
-SPl 
+1. SPl 
+2. connection 
+3. statement 
+4. preparestatement 
+5. resultset 
+6. 反射 
 
-connection 
+#### 唯一标识
 
-statement 
+1. 自增ID
+2. UUID
+3. SnowFlake
+4. 时间戳+自增ID
 
-preparestatement 
-
-resultset 
-
-反射 
 
 ### 算法与数据结构 
 
-1. **必备数据结构**：线性表、数组、链表、队列、栈 
-2. **树**：二叉树、BST AVL树 红黑树 B树 B+树 
-3. **堆**： 二叉堆 小顶堆 大顶堆 
-4. **图**： 有向图 无向图 简单图 完全无向图 有向完全图 有向无环图 
-5. **散列表**： 函数构造 冲突处理 命中查找 
-6. **字符串** ：查找匹配 正则 数组 链表 栈 队列 
-7. **树**： 二叉树 B Tree/B+ Tree 红黑树 
-8. **哈希**： 哈希冲突 K-V 
-9. **图**： BFS DFS 
-10. **排序**： 
-11. **内部排序** ：插入排序 、直接插入排序 、希尔排序 
-12. **选择排序** 简单选择排序 堆排序 
-13. **交换排序** 冒泡排序 快速排序 归并排序 基数排序 桶排序 外部排序 
-14. **排序算法** 冒泡 选择 插入 归并 快速 希尔 
-15. **贪心算法** 分金条问题 IPO问题 路灯问题 字典序问题 NIM博弈 
-16. **暴力算法** 汉诺塔问题 八皇后问题 牛吃草问题 扑克牌问题 字符串全排 
-17. **动态规划** 背包类问题 顺序尝试题 区间划分题 业务限制题 样本对应题 斐波那契题 树形DP题 数位DP题 
+1. 必备数据结构：线性表、数组、链表、队列、栈 
+2. 树：二叉树、BST、AVL树、红黑树、B树、B+树 
+3. 堆:二叉堆、小顶堆、大顶堆 
+4. 图:有向图、无向图、简单图、完全无向图、 有向完全图、有向无环图 
+5. 散列表:函数构造、 冲突处理、 命中查找 
+6. 字符串 ：查找匹配、 正则、 数组、 链表、 栈、 队列 
+7. 树:二叉树、B Tree/B+ Tree、 红黑树 
+8. 哈希:哈希冲突、K-V 
+9. 图:BFS、DFS 
+10. 排序:
+    11. 内部排序 ：插入排序、直接插入排序、希尔排序 
+    2. 选择排序:简单选择排序、堆排序 
+    3. 交换排序 ：冒泡排序、 快速排序Rest归并排序Rest基数排序、 桶排序、 外部排序 
+    4. 排序算法:冒泡Rest选择、 插入Rest归并、 快速Rest希尔 
+15. 贪心算法:分金条问题RestIPO问题Rest路灯问题Rest字典序问题、 NIM博弈 
+16. 暴力算法：汉诺塔问题、 八皇后问题Rest牛吃草问题Rest扑克牌问题、 字符串全排 
+17. 动态规划:背包类问题、 顺序尝试题、 区间划分题Rest业务限制题Rest样本对应题Rest斐波那契题、 树形DP题、 数位DP题 
 
 ### 分布式系统 
 
@@ -546,7 +479,7 @@ resultset
 
 从集中式到分布式 
 
-分布式事务 
+分布式事务：2PC、TCC、可靠消息、最大努力通知
 
 监控
 
@@ -570,9 +503,12 @@ Zookeeper
 
 ### 负载均衡 
 
-硬件:F5 
+1. 硬件:F5 
 
-软件:LVS 
+2. 软件:LVS 
+
+3. 客户端:Ribbon
+
 
 ### 项目管理 
 
@@ -585,10 +521,10 @@ Zookeeper
 
 **安全规约** 
 
-MySQL数据库规约 
+1. MySQL数据库规约 
 
-1. 工程结构
-2. 设计规约
+2. 工程结构
+3. 设计规约
 
 **日志集成** 
 
@@ -599,7 +535,7 @@ MySQL数据库规约
 
 **单元测试** 
 
-1. junit
+1. Junit
 2. Mock
 
 **集成测试** 
@@ -608,6 +544,7 @@ MySQL数据库规约
 
 1. sonarqube
 2. findbugs
+3. 阿里代码规范扫描
 
 **持续集成** 
 
@@ -615,29 +552,12 @@ jenkins
 
 ### 安全 
 
-**单项散列算法** 
+1. 单项散列算法 :MD5 SHA 
+2. 对称加密:DES 
+3. 非对称加密:RSA Https
+4. Web安全 :跨站脚本攻击XSS,跨站请求伪造CSRF,SQL注入,敏感数据泄露,越权访问,失效的身份认证,Https
 
-MD5 
-
-SHA 
-
-**对称加密** 
-
-DES 
-
-**非对称加密** 
-
-RSA 
-
-HTTPS 
-
-**Web安全**
-
-跨站脚本
-
-SQL注入
-
-### 阅读源码能力 
+### 源码能力
 
 **基础源码阅读能力** 
 
@@ -739,14 +659,14 @@ SQL注入
 4. Ajax的三级联动
 
 
-**vue** 
+**Vue** 
 
-1. VUE的介绍和使用
-2. vue的调色板和函数
-3. vue的生命周期
-4. vue的组件使用
-5. vue的属性监听
-6. vue的高阶使用
+1. Vue的介绍和使用
+2. Vue的调色板和函数
+3. Vue的生命周期
+4. Vue的组件使用
+5. Vue的属性监听
+6. Vue的高阶使用
 
 ### 性能优化
 
@@ -772,29 +692,23 @@ Docker
 
 ### 测试 
 
-单元测试 
-
-集成测试 
-
-确认测试 
-
-回归测试 
-
-自动化测试 
+单元测试、集成测试、确认测试、系统测试、回归测试 
 
 压力和容量测试 
 
 测试用例 
 
-白盒 
+白盒和黑盒 
 
-黑盒 
-
-Junit 
+Junit3+mockito 
 
 Spring Test 
 
-CmdExcetor 
+JCStress
+
+Jmeter
+
+测试覆盖率
 
 ### 中间件 
 
@@ -809,24 +723,27 @@ CmdExcetor
 
 #### Redis
 
+#### Shardingsphere
+
 
 ### 软技能 
 
 1. 沟通
-2. 周报
+2. 汇报
 3. 创新
 4. 组织能力
 5. 管理
 
 ### 工具 
 
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、Kubernetes、Hadoop、CloudCanal、Kafka Manager、Zookeeper、Kafka、Mysql、Redis、Nginx、Gulp、Docker、Postgresql、binddns、Neo4j、Mongodb、Elastic\Kibana、Logstash\Filebeat、NFS、Postfix、Shadowsocks
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、Kubernetes、Hadoop、CloudCanal、Kafka Manager、Zookeeper、Kafka、Mysql、Redis、Nginx、Gulp、Docker、Postgresql、binddns、Neo4j、Mongodb、Elastic\Kibana、Logstash\Filebeat、NFS、Postfix、Shadowsocks、JRebel、Apifox
 
 ### 通用框架处理 
 
 1. 异常处理 
-2. SSO和跨域登录
+2. SSO和跨域登录、登录信息传递
 3. 数据变更历史
+4. 幂等组件
 
 ### 系统架构设计
 
@@ -837,7 +754,16 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 ### **第三方对接** 
 
 1. 企业微信 
+
 2. 微信 
-3. 银企直联
-4. webhook
+
+3. 短信
+
+4. 银企直联、支付网关
+
+5. webhook
+
+6. 小程序开发
+
+   
 
