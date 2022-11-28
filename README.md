@@ -608,6 +608,7 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 1. 架构模式
 2. 设计模式
 3. 惯用法
+4. 遗留系统改造
 
 ### **第三方对接** 
 1. 企业微信 
