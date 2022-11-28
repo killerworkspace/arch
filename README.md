@@ -223,7 +223,8 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **基本设计模式** 
 
-**创建型模式 **
+**创建型模式**
+
 1. 工厂方法模式（Factory Method） 动态生成对象，子类决定实例化
 2. 抽象工厂模式（Abstract Factory） 生产成系列对象，抽象接口
 3. 构建器模式（Builder）    复杂对象构造，类和构造分离
@@ -266,14 +267,15 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 9. Strangler（绞杀者模式）通过将特定的功能片断逐渐取代为新的应用程序和服务，逐步迁移旧系统。 随着旧系统的功能被替换，新系统最终将取代旧系统的所有功能，抑制旧系统并使其停用。通过逐步用新服务替换特定功能来支持增量迁移。
 
 **设计工具使用** 
-1. starUML
-2. powerdesigner
+1. StarUML
+2. PowerDesigner
 3. Processon
 4. gitMind
-5. plantUML
+5. Draw.io
+6. plantUML
 
-**UML建模：**
-UML图：类图、对象图、构件图、组合结构图、用例图、顺序图、通信图、定时图、状态图、活动图、部署图、制品图、包图、交互概览图。
+**UML建模**
+
 1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图
 2. 对象图：描述一组对象及他们之间的关系。描述了在类图中所建立的事物实例的静态快照。
 3. 构件图：描述一个封装的类和它的接口、端口、以及由内嵌的构件和连接件构成的内部结构。
@@ -331,7 +333,7 @@ UML图：类图、对象图、构件图、组合结构图、用例图、顺序�
 6. CAP 
 7. BASE 
 8. 2PC/3PC 
-9. Paxos 
+9. Paxos/Raft
 
 ##### MySQL
 
@@ -344,6 +346,7 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 3. DCL（数据控制语言） 
 
 **数据库表设计** 
+
 三范式、视图、完整性约束 
 
 **索引机制** 
@@ -437,6 +440,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 **开发规范** 
 1. 编程规约
 2. 异常日志
+3. 代码规范
 
 **安全规约** 
 1. MySQL数据库规约 
