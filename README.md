@@ -1,10 +1,11 @@
 # 知识体系梳理
 
 ### 服务器
-1. Tomcat(Selvlet容量)，Jetty
+1. Tomcat(Selvlet容量)，Jetty，Undertow
 2. Nginx/Tengine(Web应用服务器)
 3. 磁盘、IO、网络、CPU
 4. Linux 发行版(Server) Ubuntu Redhat CentOS
+5. 手写服务器
 
 ### 计算机组成原理
 计算机组成原理、冯诺依曼与哈佛结构、层次化存储架构
@@ -13,13 +14,13 @@
 信号量、设备管理和文件管理、存储管理、进程管理、嵌入式和微内核
 
 ### 网络 
-- 网络分层
-- 互联网协议
-- TCP/IP/UDP
-- Http1.1/2/0（状态码）
-- HttpS
-- OAuth 2.0
-- REST
+1. 网络分层
+2. 互联网协议
+3. TCP/IP/UDP
+4. Http1.1/2/0（状态码）
+5. HttpS
+6. OAuth 2.0
+7. REST
 
 ### Java编程 
 **IDE：** 
@@ -55,47 +56,55 @@ List、ArrayList、LinkedList、Set、HashSet、TreeSet、Map、HashMap、TreeMa
 jackson、JavaEE开发、JSP/Servlet 3.x、Session/Cookie、jstl/EL、Hutools
 
 **框架**
-Spring IOC AOP SpringMVC MyBatis Shiro Netty
+Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Netty
 
 **高级特性** 
-泛型 
-多态的实现原理 
-Lambda 
+
+1. 泛型 
+2. 多态的实现原理 
+3. Lambda 
 
 **并发编程**
-Excutor框架 
-happen-before 
-线程池 
-线程状态 
-原子操作类 
-并发工具类 
+
+1. Excutor框架 
+2. happen-before 
+3. 线程池 
+4. 线程状态 
+5. 原子操作类 
+6. 并发工具类 
 
 **网络编程** 
-Socket 
-基本案例实现 
+
+1. Socket 
 
 **IO** 
-BIO 
-NIO 
-AIO 
+
+1. BIO 
+2. NIO 
+3. AIO 
 
 **序列化** 
-JDK自带 
-Google protobuf(性能非常高) 
 
-**远程调用** 
-RMI 
-Thrift 
-Dubbo(Dubbox) 
-服务治理,也可以作为微服务 
-gPRC 
+1. JDK自带 
+2. Google protobuf(性能非常高) 
+
+**远程调用**
+
+1.  RMI 
+2. Thrift 
+3. Dubbo(Dubbox) 
+4. gPRC 
+5. Feign
+6. RestTemplate
 
 **构建工具** 
-Maven(推荐Maven实战) 
-Gradle 
+
+1. Maven(推荐Maven实战) 
+2. Gradle
 
 **代码生成工具**
-mbg
+
+1. mbg
 
 ### 框架 
 **集合框架** 
@@ -106,6 +115,7 @@ mbg
 5. arrays
 
 **IO框架**
+
 字节流、字符流、缓存流、处理流、转换流 
 
 **多线程编程** 
@@ -157,31 +167,52 @@ mbg
 6. 自动装配原理
 
 ### JVM 
-认识Java虚拟机(默认Hotspot实现) 
-类加载机制(知道双亲委派机制) 
-内存模型 
-GC 
+1. 认识Java虚拟机(默认Hotspot实现) 
+2. 类加载机制(知道双亲委派机制) 
+3. 内存模型 
+4. GC 
 
 **调优** 
-工具 
-jconsole 
-jstack 
-jmap 
+
+1. arthas工具
+2. jconsole 
+3. jstack 
+4. jmap 
+5. dump 
 
 ### 软件工程 
-**运维** 
-持续集成 
-Jenkins 
-TDD 
+
+**基本要素**
+
+方法、工具、过程
+
+**生命周期**
+
+1. 立项：系统规划>>可行性分析与项目开发计划
+2. 开发：系统分析>>系统设计（概要设计和详细设计）>>系统实施>>系统验收
+3. 运维：系统运行与维护（持续集成、Jenkins）
+
+**软件过程模型**
+
+1. 瀑布模型
+2. 螺旋模型
+3. V模型
+4. 原型化模型
+5. 增量模型
+6. 喷泉模型
+7. 形式化方法模型
 
 **原则** 
-DRY 
-单一职责 
-开闭原则
-MVP
+
+1. DRY 
+2. 单一职责 
+3. 开闭原则
+4. MVP
+5. 最小改动
 
 ### 设计原则和模式 
-**基本设计原则** 
+#### **基本设计原则** 
+
 1. 单一职责的原则
 2. 里氏替换原则
 3. 依赖倒置原则
@@ -189,7 +220,7 @@ MVP
 5. 迪米特原则
 6. 开闭原则
 
-**设计模式** 
+#### **设计模式** 
 
 **基本设计模式** 
 
@@ -268,47 +299,50 @@ UML图：类图、对象图、构件图、组合结构图、用例图、顺序�
 ### 数据库 
 
 #### **NoSQL** 
-MongoDB 
-ELK 
-文档模型 
+1. MongoDB 
+2. ELK 
+3. 文档模型 
 
 **分片** 
-分布式缓存 
-Memocached 
-Redis(重要) 
+
+1. 分布式缓存 
+2. Memocached 
+3. Redis(重要) 
 
 **搜索引擎** 
-Solr 
-Elastic Search 
+
+1. Solr 
+2. Elastic Search 
 
 **大数据** 
-Hadoop 
-Hbase 
-Spark 
-Storm/jStorm 
-DataHub
-Analytic DB-MySQL
+
+1. Hadoop 
+2. Hbase 
+3. Spark 
+4. Storm/jStorm 
+5. DataHub
+6. Analytic DB-MySQL
 
 #### 关系数据库 
-读写分离 
-主从热备 
-分库 
-分表 
-一致性 
-分布式事务 
-CAP 
-BASE 
-2PC/3PC 
-Paxos 
+1. 读写分离 
+2. 主从热备 
+3. 分库 分表（水平、垂直划分） 
+4. 一致性 
+5. 分布式事务 
+6. CAP 
+7. BASE 
+8. 2PC/3PC 
+9. Paxos 
 
 ##### MySQL
 
 MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 数据库设计 其它 
 
 **基础语法** 
-DDL（数据定义语言） 
-DML（数据操纵语言） 
-DCL（数据控制语言） 
+
+1. DDL（数据定义语言） 
+2. DML（数据操纵语言） 
+3. DCL（数据控制语言） 
 
 **数据库表设计** 
 三范式、视图、完整性约束 
@@ -376,19 +410,19 @@ DCL（数据控制语言）
 13. 动态规划:背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
 
 ### 分布式系统 
-服务拆分、调用、治理
-从集中式到分布式 
-分布式事务：2PC、TCC、可靠消息、最大努力通知
-监控
-DDD
-分布式Session 
-分布式缓存 Redis 一致性 
-分布式锁 Redisson 
+1. 服务拆分、调用、治理
+2. 从集中式到分布式 
+3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
+4. DDD
+5. 分布式Session 
+6. 分布式缓存 Redis 一致性 
+7. 分布式锁 Redisson 
 
 **服务化** 
-服务注册与发现 
-Zookeeper 
-架构 
+
+1. 服务注册与发现 
+2. Zookeeper 
+3. 架构 
 
 **微服务** 
 Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
@@ -399,7 +433,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 客户端:Ribbon
 
 ### 项目管理 
-角色 成果 思路 技术栈 
+角色、成果、思路、技术栈 
 
 **开发规范** 
 1. 编程规约
@@ -428,7 +462,8 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 阿里代码规范扫描
 
 **持续集成** 
-jenkins 
+
+1. jenkins 
 
 ### 安全 
 1. 单项散列算法 :MD5 SHA 
@@ -509,28 +544,28 @@ jenkins
 6. Vue的高阶使用
 
 ### 性能优化
-全链路延时，每个系统的链路延时 
-性能调优 
+1. 全链路延时，每个系统的链路延时
+2. 性能调优
+3. TPS和QPS目标
+4. 磁盘、IO、网络、CPU 影响 
 
 ### DevOps 
-容器化 
-虚拟化 
-Docker 
-计算平台 
-实时 
-离线 
-容灾,异地多活 
+1. 容器化 
+2. 虚拟化 
+3. Docker+Kubernetes(编排)
+4. 计算平台 实时 离线 
+5. 容灾,异地多活 
 
 ### 测试 
-单元测试、集成测试、确认测试、系统测试、回归测试 
-压力和容量测试 
-测试用例 
-白盒和黑盒 
-Junit3+mockito 
-Spring Test 
-JCStress
-Jmeter
-测试覆盖率
+1. 单元测试、集成测试、确认测试、系统测试、回归测试 
+2. 压力和容量测试 
+3. 测试用例 
+4. 白盒和黑盒 
+5. Junit3+mockito 
+6. Spring Test 
+7. JCStress
+8. Jmeter
+9. 测试覆盖率
 
 ### 中间件 
 #### 消息队列 
@@ -547,9 +582,10 @@ Jmeter
 3. 创新
 4. 组织能力
 5. 管理
+6. 思考和信息内化能力
 
 ### 工具 
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、Kubernetes、Hadoop、CloudCanal、Kafka Manager、Zookeeper、Kafka、Mysql、Redis、Nginx、Gulp、Docker、Postgresql、binddns、Neo4j、Mongodb、Elastic\Kibana、Logstash\Filebeat、NFS、Postfix、Shadowsocks、JRebel、Apifox
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
 
 ### 通用框架处理 
 1. 异常处理 
