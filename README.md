@@ -468,6 +468,14 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 
 1. jenkins 
 
+**管理工具**
+
+1. Jira
+2. Confluence
+3. 禅道
+4. Excel
+5. ones
+
 ### 安全 
 1. 单项散列算法 :MD5 SHA 
 2. 对称加密:DES 
