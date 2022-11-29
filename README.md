@@ -59,13 +59,11 @@ jackson、JavaEE开发、Servlet 3.x、Session/Cookie、jstl/EL、Hutools
 Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Netty
 
 **高级特性** 
-
 1. 泛型 
 2. 多态的实现原理 
 3. Lambda 
 
 **并发编程**
-
 1. Excutor框架 
 2. happen-before 
 3. 线程池 
@@ -74,22 +72,18 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 6. 并发工具类 
 
 **网络编程** 
-
 1. Socket 
 
 **IO** 
-
 1. BIO 
 2. NIO 
 3. AIO 
 
 **序列化** 
-
 1. JDK自带 
 2. Google protobuf(性能非常高) 
 
 **远程调用**
-
 1.  RMI 
 2. Thrift 
 3. Dubbo(Dubbox) 
@@ -98,7 +92,6 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 6. RestTemplate
 
 **构建工具** 
-
 1. Maven(推荐Maven实战) 
 2. Gradle
 
@@ -115,7 +108,6 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. arrays
 
 **IO框架**
-
 字节流、字符流、缓存流、处理流、转换流 
 
 **多线程编程** 
@@ -172,7 +164,6 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. GC 
 
 **调优** 
-
 1. arthas工具
 2. jconsole 
 3. jstack 
@@ -182,17 +173,14 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 ### 软件工程 
 
 **基本要素**
-
 方法、工具、过程
 
 **生命周期**
-
 1. 立项：系统规划>>可行性分析与项目开发计划
 2. 开发：系统分析>>系统设计（概要设计和详细设计）>>系统实施>>系统验收
 3. 运维：系统运行与维护（持续集成、Jenkins）
 
 **软件过程模型**
-
 1. 瀑布模型
 2. 螺旋模型
 3. V模型
@@ -202,7 +190,6 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 7. 形式化方法模型
 
 **原则** 
-
 1. DRY 
 2. 单一职责 
 3. 开闭原则
@@ -224,7 +211,6 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 **基本设计模式** 
 
 **创建型模式**
-
 1. 工厂方法模式（Factory Method） 动态生成对象，子类决定实例化
 2. 抽象工厂模式（Abstract Factory） 生产成系列对象，抽象接口
 3. 构建器模式（Builder）    复杂对象构造，类和构造分离
@@ -305,18 +291,15 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 3. 文档模型 
 
 **分片** 
-
 1. 分布式缓存 
 2. Memocached 
 3. Redis(重要) 
 
 **搜索引擎** 
-
 1. Solr 
 2. Elastic Search 
 
 **大数据** 
-
 1. Hadoop 
 2. Hbase 
 3. Spark 
@@ -340,13 +323,11 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 数据库设计 其它 
 
 **基础语法** 
-
 1. DDL（数据定义语言） 
 2. DML（数据操纵语言） 
 3. DCL（数据控制语言） 
 
 **数据库表设计** 
-
 三范式、视图、完整性约束 
 
 **索引机制** 
@@ -421,7 +402,6 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 7. 分布式锁 Redisson 
 
 **服务化** 
-
 1. 服务注册与发现 
 2. Zookeeper 
 3. 架构 
@@ -465,11 +445,9 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 阿里代码规范扫描
 
 **持续集成** 
-
 1. jenkins 
 
 **管理工具**
-
 1. Jira
 2. Confluence
 3. 禅道
@@ -490,13 +468,13 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. HasHset源码
 4. HashMap源码
 5. ConcurrentHashMap源码
+6. 线程池源码 
 
-**线程池源码** 
-1. Spring源码
-2. IOC源码
-3. AOP源码
-4. 后置处理器源码
-5. 多播器监听器源码
+**Spring源码** 
+1. IOC源码
+2. AOP源码
+3. 后置处理器源码
+4. 多播器监听器源码
 
 **SpringMVC 源码** 
 1. Dispatcherserlet源码
@@ -584,6 +562,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 2. RabbitMQ 
 3. ActiveMQ 
 4. Kafka 
+5. RocketMQ
 #### ELK
 #### Redis
 #### Shardingsphere
@@ -605,7 +584,7 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 4. 幂等组件
 
 ### 系统架构设计
-1. 架构模式
+1. 架构风格
 2. 设计模式
 3. 惯用法
 4. 遗留系统改造
