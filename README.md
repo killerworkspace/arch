@@ -36,7 +36,7 @@
 2. 标识符合保留字
 3. 数据类型
 4. 流程控制
-5. OO:封装、继承、多态
+5. OOP:封装、继承、多态
 
 **网络编程** 
 1. 网络基础知识
@@ -166,7 +166,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 **调优** 
 1. arthas工具
 2. jconsole 
-3. jstack 
+3. jinfo、jstat、jstack、top、top -Hp pid
 4. jmap 
 5. dump 
 
@@ -196,9 +196,16 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. MVP
 5. 最小改动
 
+**软件质量属性**
+1. 可用性
+2. 可修改性
+3. 性能
+4. 安全性
+5. 可测试性
+6. 易用性
+
 ### 设计原则和模式 
 #### **基本设计原则** 
-
 1. 单一职责的原则
 2. 里氏替换原则
 3. 依赖倒置原则
@@ -241,6 +248,9 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **并发型模式** 
 
+1. 生产-消费者模式
+2. 线程池模式
+
 **云设计模式** 
 1. Ambassador(代表模式) 可用于以一种与语言无关的方式卸载常见客户端连接任务，如监视、记录、路由、安全（如 TLS）。
 2. Anti-corruption layer (防损层模式) 实现了新旧应用程序之间的外观，以确保新应用程序的设计不受遗留系统依赖性的限制。使用此模式可确保应用程序的设计不受限于对外部子系统的依赖。 此模式最先由 Eric Evans 在 Domain-Driven Design（域驱动的设计）中描述。
@@ -261,8 +271,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 6. plantUML
 
 **UML建模**
-
-1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图
+1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图（依赖、泛化、实现、关联、聚合、组合）。
 2. 对象图：描述一组对象及他们之间的关系。描述了在类图中所建立的事物实例的静态快照。
 3. 构件图：描述一个封装的类和它的接口、端口、以及由内嵌的构件和连接件构成的内部结构。
 4. 组合结构图：描述结构化类的内部结构，包括结构化类与系统其余部分的交互点。组合结构图用于画出结构化类的内部内容。
@@ -291,6 +300,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 3. 文档模型 
 
 **分片** 
+
 1. 分布式缓存 
 2. Memocached 
 3. Redis(重要) 
@@ -376,21 +386,21 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 ### 算法与数据结构 
 1. 必备数据结构：线性表、数组、链表、队列、栈 
 2. 树：二叉树、BST、AVL树、红黑树、B树、B+树 
-3. 堆:二叉堆、小顶堆、大顶堆 
-4. 图:有向图、无向图、简单图、完全无向图、 有向完全图、有向无环图 
-5. 散列表:函数构造、 冲突处理、 命中查找 
-6. 字符串 ：查找匹配、 正则、 数组、 链表、 栈、 队列 
-7. 树:二叉树、B Tree/B+ Tree、 红黑树 
-8. 哈希:哈希冲突、K-V 
-9. 图:BFS、DFS 
-10. 排序:
+3. 堆：二叉堆、小顶堆、大顶堆 
+4. 图：有向图、无向图、简单图、完全无向图、 有向完全图、有向无环图 
+5. 散列表：函数构造、 冲突处理、 命中查找 
+6. 字符串：查找匹配、 正则、 数组、 链表、 栈、 队列 
+7. 树：二叉树、B Tree/B+ Tree、 红黑树 
+8. 哈希：哈希冲突、K-V 
+9. 图：BFS、DFS 
+10. 排序：
     - 内部排序 ：插入排序、直接插入排序、希尔排序 
-    - 选择排序:简单选择排序、堆排序 
+    - 选择排序：简单选择排序、堆排序 
     - 交换排序 ：冒泡排序、 快速排序、归并排序、基数排序、 桶排序、 外部排序 
-    - 排序算法:冒泡选择、 插入、归并、 快速、希尔
-15. 贪心算法:分金条问题、IPO问题、路灯问题、字典序问题、 NIM博弈
+    - 排序算法：冒泡选择、 插入、归并、 快速、希尔
+15. 贪心算法：分金条问题、IPO问题、路灯问题、字典序问题、 NIM博弈
 12. 暴力算法：汉诺塔问题、 八皇后问题、牛吃草问题、扑克牌问题、 字符串全排
-13. 动态规划:背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
+13. 动态规划：背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
 
 ### 分布式系统 
 1. 服务拆分、调用、治理
@@ -400,6 +410,7 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 5. 分布式Session 
 6. 分布式缓存 Redis 一致性 
 7. 分布式锁 Redisson 
+8. 分片、分区、副本
 
 **服务化** 
 1. 服务注册与发现 
@@ -407,6 +418,7 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 3. 架构 
 
 **微服务** 
+
 Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
 
 ### 负载均衡 
@@ -451,14 +463,14 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 1. Jira
 2. Confluence
 3. 禅道
-4. Excel
-5. ones
+4. Excel Online
+5. ones、teambition、tapd
 
 ### 安全 
-1. 单项散列算法 :MD5 SHA 
+1. 单项散列算法:MD5 SHA 
 2. 对称加密:DES 
-3. 非对称加密:RSA Https
-4. Web安全 :跨站脚本攻击XSS,跨站请求伪造CSRF,SQL注入,敏感数据泄露,越权访问,失效的身份认证,Https
+3. 非对称加密:RSA、Https
+4. Web安全:跨站脚本攻击XSS、跨站请求伪造CSRF、SQL注入、敏感数据泄露、越权访问、失效的身份认证、Https
 
 ### 源码能力
 
@@ -476,7 +488,8 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 后置处理器源码
 4. 多播器监听器源码
 
-**SpringMVC 源码** 
+**SpringMVC源码** 
+
 1. Dispatcherserlet源码
 2. 请求处理器源码
 3. 适配器源码
@@ -542,7 +555,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 1. 容器化 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
-4. 计算平台 实时 离线 
+4. 计算平台：实时+离线 
 5. 容灾,异地多活 
 
 ### 测试 
@@ -572,7 +585,8 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 创新
 4. 组织能力
 5. 管理
-6. 思考和信息内化能力
+6. 思考
+7. 信息内化能力
 
 ### 工具 
 Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
@@ -584,10 +598,11 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 4. 幂等组件
 
 ### 系统架构设计
-1. 架构风格
+1. 架构风格（五大架构风格）
 2. 设计模式
 3. 惯用法
 4. 遗留系统改造
+5. 架构评审--权衡点、风险点、敏感点
 
 ### **第三方对接** 
 1. 企业微信 
