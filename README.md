@@ -555,8 +555,12 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 1. 容器化 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
+   1. Harbor
+   2. Helm
+   3. Kubekey
 4. 计算平台：实时+离线 
 5. 容灾,异地多活 
+6. Service Mesh（Sidecar）
 
 ### 测试 
 1. 单元测试、集成测试、确认测试、系统测试、回归测试 
@@ -578,7 +582,11 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 5. RocketMQ
 #### ELK
 #### Redis
-#### Shardingsphere
+#### 数据库
+
+1. Shardingsphere
+2. MyCat
+
 ### 软技能 
 1. 沟通
 2. 汇报
@@ -596,6 +604,7 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 2. SSO和跨域登录、登录信息传递
 3. 数据变更历史
 4. 幂等组件
+5. 多数据源组件
 
 ### 系统架构设计
 1. 架构风格（五大架构风格）
