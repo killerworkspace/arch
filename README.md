@@ -551,7 +551,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. TPS和QPS目标
 4. 磁盘、IO、网络、CPU 影响 
 
-### DevOps 
+### DevOps
 1. 容器化 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
@@ -560,7 +560,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
    3. Kubekey
 4. 计算平台：实时+离线 
 5. 容灾,异地多活 
-6. Service Mesh（Sidecar）
+6. Service Mesh（Sidecar）+Google Istio
 
 ### 测试 
 1. 单元测试、集成测试、确认测试、系统测试、回归测试 
