@@ -63,13 +63,30 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 2. 多态的实现原理 
 3. Lambda 
 
+**GUI**
+
+1. Swing
+
 **并发编程**
+
 1. Excutor框架 
 2. happen-before 
 3. 线程池 
+   1. 管理一组同构工作线程的资源池,跟工作队列密切相关
 4. 线程状态 
 5. 原子操作类 
 6. 并发工具类 
+7. 同步工具类
+   1. 阻塞队列
+   2. 信号量
+   3. 栅栏
+   4. 闭锁
+8. 并发容器
+   1. ConcurrentHashMap
+   2. CopyOnWriteArraryList
+   3. Queue
+   4. BlockingQueue
+9. 死锁
 
 **网络编程** 
 1. Socket 
@@ -402,29 +419,16 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 12. 暴力算法：汉诺塔问题、 八皇后问题、牛吃草问题、扑克牌问题、 字符串全排
 13. 动态规划：背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
 
-### 分布式系统 
-1. 服务拆分、调用、治理
-2. 从集中式到分布式 
-3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
-4. DDD
-5. 分布式Session 
-6. 分布式缓存 Redis 一致性 
-7. 分布式锁 Redisson 
-8. 分片、分区、副本
-
-**服务化** 
-1. 服务注册与发现 
-2. Zookeeper 
-3. 架构 
-
-**微服务** 
-
-Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
-
-### 负载均衡 
-1. 硬件:F5 
-2. 软件:LVS 
-3. 客户端:Ribbon
+### 测试 
+1. 单元测试、集成测试、确认测试、系统测试、回归测试 
+2. 压力和容量测试 
+3. 测试用例 
+4. 白盒和黑盒 
+5. Junit3+mockito 
+6. Spring Test 
+7. JCStress
+8. Jmeter
+9. 测试覆盖率
 
 ### 项目管理 
 角色、成果、思路、技术栈 
@@ -489,7 +493,6 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 4. 多播器监听器源码
 
 **SpringMVC源码** 
-
 1. Dispatcherserlet源码
 2. 请求处理器源码
 3. 适配器源码
@@ -562,18 +565,31 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 5. 容灾,异地多活 
 6. Service Mesh（Sidecar）+Google Istio
 
-### 测试 
-1. 单元测试、集成测试、确认测试、系统测试、回归测试 
-2. 压力和容量测试 
-3. 测试用例 
-4. 白盒和黑盒 
-5. Junit3+mockito 
-6. Spring Test 
-7. JCStress
-8. Jmeter
-9. 测试覆盖率
+### 分布式系统 
+1. 服务拆分、调用、治理
+2. 从集中式到分布式 
+3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
+4. DDD
+5. 分布式Session 
+6. 分布式缓存 Redis 一致性 
+7. 分布式锁 Redisson 
+8. 分片、分区、副本
+
+**服务化** 
+1. 服务注册与发现 
+2. Zookeeper 
+3. 架构 
+
+**微服务** 
+Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
+
+### 负载均衡 
+1. 硬件:F5 
+2. 软件:LVS 
+3. 客户端:Ribbon
 
 ### 中间件 
+
 #### 消息队列 
 1. ZeroMQ 
 2. RabbitMQ 
@@ -583,21 +599,8 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 #### ELK
 #### Redis
 #### 数据库
-
 1. Shardingsphere
 2. MyCat
-
-### 软技能 
-1. 沟通
-2. 汇报
-3. 创新
-4. 组织能力
-5. 管理
-6. 思考
-7. 信息内化能力
-
-### 工具 
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
 
 ### 通用框架处理 
 1. 异常处理 
@@ -620,3 +623,27 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 4. 银企直联、支付网关
 5. webhook
 6. 小程序开发
+
+### 工具 
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
+
+### 软技能 
+1. 沟通
+2. 汇报
+3. 创新
+4. 组织能力
+5. 管理
+6. 思考
+7. 信息内化能力
+8. 英文文档
+
+### **学历证书**
+敲门砖
+1. 提升学历
+   1. 本科（统招）及以上的学历
+   2. 在职（本科、研究生）
+2. 证书
+   1. 软考中级（软件设计师）
+   2. 软考高级（系统分析师、系统架构设计师）
+   3. PMP
+3. CET-4、CET-6
