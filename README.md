@@ -1,19 +1,19 @@
 # 知识体系梳理
 
-### 服务器
+### 01 服务器
 1. Tomcat(Selvlet容量)，Jetty，Undertow
 2. Nginx/Tengine(Web应用服务器)
 3. 磁盘、IO、网络、CPU
 4. Linux 发行版(Server) Ubuntu Redhat CentOS
 5. 手写服务器
 
-### 计算机组成原理
+### 02 计算机组成原理
 计算机组成原理、冯诺依曼与哈佛结构、层次化存储架构
 
-### 操作系统
+### 03 操作系统
 信号量、设备管理和文件管理、存储管理、进程管理、嵌入式和微内核、局部性原理
 
-### 网络 
+### 04 网络 
 1. 网络分层
 2. 互联网协议
 3. TCP/IP/UDP
@@ -22,7 +22,7 @@
 6. OAuth 2.0
 7. REST
 
-### Java编程 
+### 05 Java编程 
 **IDE：** 
 1. Eclipse 
 2. Intellij IDEA
@@ -37,12 +37,13 @@
 3. 数据类型
 4. 流程控制
 5. OOP:封装、继承、多态
+6. 抽象类与接口
+7. 浅拷贝与深拷贝
 
 **网络编程** 
 1. 网络基础知识
 2. inetaddress
-3. tcp
-4. udp
+3. tcp与udp
 5. socket
 6. netty
 7. servlet
@@ -50,12 +51,15 @@
 **JDK8(java核心技术卷1)** 
 
 **集合框架** 
+
 List、ArrayList、LinkedList、Set、HashSet、TreeSet、Map、HashMap、TreeMap、ConcurrentHashMap、BitMap、Queue、ConcurrentLinkedQueue、Stack、Collections的synchronized方法
 
 **工具类**
+
 jackson、JavaEE开发、Servlet 3.x、Session/Cookie、jstl/EL、Hutools
 
 **框架**
+
 Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Netty
 
 **高级特性** 
@@ -114,10 +118,9 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 2. Gradle
 
 **代码生成工具**
+1. mbg(MyBatis Generator)
 
-1. mbg
-
-### 框架 
+### 06 框架 
 **集合框架** 
 1. collection
 2. list
@@ -180,7 +183,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. 模板引擎的使用
 6. 自动装配原理
 
-### JVM 
+### 07 JVM 
 1. 认识Java虚拟机(默认Hotspot实现) 
 2. 类加载机制(知道双亲委派机制) 
 3. 内存模型 
@@ -193,7 +196,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. jmap 
 5. dump 
 
-### 软件工程 
+### 08 软件工程 
 
 **基本要素**
 
@@ -219,6 +222,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 3. 开闭原则
 4. MVP
 5. 最小改动
+6. 防呆设计
 
 **软件质量属性**
 1. 可用性
@@ -228,7 +232,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. 可测试性
 6. 易用性
 
-### 设计原则和模式 
+### 09 设计原则和模式 
 #### **基本设计原则** 
 1. 单一职责的原则
 2. 里氏替换原则
@@ -311,12 +315,14 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 14. 交互概览图：交互概览图是活动图和顺序图的混合物。
 
 **项目设计流程** 
+
 需求设计、系统设计、接口设计、原型设计 
 
 **数据库的设计** 
+
 数据字典设计、逻辑结构设计、物理结构设计、数据表设计 
 
-### 数据库 
+### 10 数据库 
 
 #### **NoSQL** 
 1. MongoDB 
@@ -362,7 +368,6 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. DCL（数据控制语言） 
 
 **数据库表设计** 
-
 1. 三范式
 2. 视图
 3. 完整性约束 
@@ -410,7 +415,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 4. 时间戳+自增ID
 5. Redis 原子自增
 
-### 算法与数据结构 
+### 11  算法与数据结构 
 1. 必备数据结构：线性表、数组、链表、队列、栈 
 2. 树：二叉树、BST、AVL树、红黑树、B树、B+树 
 3. 堆：二叉堆、小顶堆、大顶堆 
@@ -429,7 +434,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 12. 暴力算法：汉诺塔问题、 八皇后问题、牛吃草问题、扑克牌问题、 字符串全排
 13. 动态规划：背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
 
-### 测试 
+### 12 测试 
 1. 单元测试、集成测试、确认测试、系统测试、回归测试 
 2. 压力和容量测试 
 3. 测试用例 
@@ -440,7 +445,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 8. Jmeter
 9. 测试覆盖率
 
-### 项目管理 
+### 13 项目管理 
 角色、成果、思路、技术栈 
 
 **开发规范** 
@@ -480,18 +485,18 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 4. Excel Online
 5. ones、teambition、tapd
 
-### 安全 
+### 14 安全 
 1. 单项散列算法:MD5 SHA 
 2. 对称加密:DES 
 3. 非对称加密:RSA、Https
 4. Web安全:跨站脚本攻击XSS、跨站请求伪造CSRF、SQL注入、敏感数据泄露、越权访问、失效的身份认证、Https
 
-### 源码能力
+### 15 源码能力
 
 **基础源码阅读能力** 
 1. JDK源码
 2. ArrayList源码
-3. HasHset源码
+3. HashSet源码
 4. HashMap源码
 5. ConcurrentHashMap源码
 6. 线程池源码 
@@ -501,6 +506,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. AOP源码
 3. 后置处理器源码
 4. 多播器监听器源码
+5. Spring事务源码
 
 **SpringMVC源码** 
 1. Dispatcherserlet源码
@@ -516,9 +522,9 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 **SpringBoot 源码** 
 1. springboot启动流程源码 
 2. 自动装配源码 
-3. 整合Tomcat源码 
+3. 整合内嵌服务器（Tomcat、Jetty）源码 
 
-### 前端技术 
+### 16 前端技术 
 **HTML 和 Html5** 
 
 1. 网络传输三大基石 
@@ -559,13 +565,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 5. Vue的属性监听
 6. Vue的高阶使用
 
-### 性能优化
-1. 全链路延时，每个系统的链路延时
-2. 性能调优
-3. TPS和QPS目标
-4. 磁盘、IO、网络、CPU 影响 
-
-### DevOps
+### 17 DevOps
 1. 容器化 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
@@ -576,7 +576,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 5. 容灾,异地多活 
 6. Service Mesh（Sidecar）+Google Istio
 
-### 分布式系统 
+### 18 分布式系统 
 1. 服务拆分、调用、治理
 2. 从集中式到分布式 
 3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
@@ -594,12 +594,12 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 **微服务** 
 Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
 
-### 负载均衡 
+### 19 负载均衡 
 1. 硬件:F5 
 2. 软件:LVS 
 3. 客户端:Ribbon
 
-### 中间件 
+### 20 中间件 
 
 #### 消息队列 
 1. ZeroMQ 
@@ -613,14 +613,14 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 1. Shardingsphere
 2. MyCat
 
-### 通用框架处理 
+### 21 通用框架处理 
 1. 异常处理 
 2. SSO和跨域登录、登录信息传递
 3. 数据变更历史
 4. 幂等组件
 5. 多数据源组件
 
-### 系统架构设计
+### 22 系统架构设计
 1. 架构风格（五大架构风格）
 2. 设计模式
 3. 惯用法
@@ -628,7 +628,13 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 5. 架构评审--权衡点、风险点、敏感点
 6. 高可用架构
 
-### **第三方对接** 
+### 23 性能优化
+1. 全链路延时，每个系统的链路延时
+2. 性能调优
+3. TPS和QPS目标
+4. 磁盘、IO、网络、CPU 影响 
+
+### **24 第三方对接** 
 1. 企业微信 
 2. 微信 
 3. 短信
@@ -636,10 +642,10 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 5. API与Webhook
 6. 小程序开发
 
-### 工具 
+### 25 工具 
 Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
 
-### 软技能 
+### 26 软技能 
 1. 沟通
 2. 汇报
 3. 创新
@@ -649,9 +655,8 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 7. 信息内化
 8. 英文文档
 
-### **学历证书**
+### **27 学历证书**
 敲门砖、如果牛逼可以考更多
-
 1. 提升学历
    1. 本科（统招）及以上的学历
    2. 在职（本科、研究生）
