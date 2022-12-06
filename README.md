@@ -87,6 +87,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
    3. Queue
    4. BlockingQueue
 9. 死锁
+10. 轻量级与重量级锁
 
 **网络编程** 
 1. Socket 
@@ -125,7 +126,12 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. arrays
 
 **IO框架**
-字节流、字符流、缓存流、处理流、转换流 
+
+1. 字节流
+2. 字符流
+3. 缓存流
+4. 处理流
+5. 转换流 
 
 **多线程编程** 
 1. 线程、进程、程序
@@ -190,6 +196,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 ### 软件工程 
 
 **基本要素**
+
 方法、工具、过程
 
 **生命周期**
@@ -347,7 +354,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 ##### MySQL
 
-MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 数据库设计 其它 
+MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级别、锁、数据库设计、其它 
 
 **基础语法** 
 1. DDL（数据定义语言） 
@@ -355,7 +362,10 @@ MySQL引擎 分区表 分库分表 SQL优化 SQL注入 事务隔离级别 锁 �
 3. DCL（数据控制语言） 
 
 **数据库表设计** 
-三范式、视图、完整性约束 
+
+1. 三范式
+2. 视图
+3. 完整性约束 
 
 **索引机制** 
 1. 索引的实现机制 
@@ -616,6 +626,7 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 3. 惯用法
 4. 遗留系统改造
 5. 架构评审--权衡点、风险点、敏感点
+6. 高可用架构
 
 ### **第三方对接** 
 1. 企业微信 
