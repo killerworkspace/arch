@@ -223,6 +223,12 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. MVP
 5. 最小改动
 6. 防呆设计
+7. 持久化透明（Persistence Ignorance）
+8. YAGNI
+9. 童子军规则（Boy Scout Rule）
+10. KISS（Keep It Simple, Stupid）
+11. 最少知识原则（Least Knowledge）
+12. 增量/迭代方法（Incremental/Iterative Approach）
 
 **软件质量属性**
 1. 可用性
