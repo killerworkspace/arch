@@ -4,7 +4,7 @@
 1. Tomcat(Selvlet容量)，Jetty，Undertow
 2. Nginx/Tengine(Web应用服务器)
 3. 磁盘、IO、网络、CPU
-4. Linux 发行版(Server) Ubuntu Redhat CentOS
+4. Linux 发行版(Server) Ubuntu、Redhat、CentOS
 5. 手写服务器
 
 ### 02 计算机组成原理
@@ -28,7 +28,7 @@
 2. Intellij IDEA
 
 **版本控制：** 
-1. Git
+1. Git(gitlab和github)
 2. Svn
 
 **Java基础：** 
@@ -73,25 +73,27 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **并发编程**
 
-1. Excutor框架 
-2. happen-before 
-3. 线程池 
+1. 原子性、有序性、可见性
+2. 线程工作内存
+3. Excutor框架 
+4. happen-before 
+5. 线程池 
    1. 管理一组同构工作线程的资源池,跟工作队列密切相关
-4. 线程状态 
-5. 原子操作类 
-6. 并发工具类 
-7. 同步工具类
+6. 线程状态 
+7. 原子操作类 
+8. 并发工具类 
+9. 同步工具类
    1. 阻塞队列
    2. 信号量
    3. 栅栏
    4. 闭锁
-8. 并发容器
+10. 并发容器
    1. ConcurrentHashMap
    2. CopyOnWriteArraryList
    3. Queue
    4. BlockingQueue
-9. 死锁
-10. 轻量级与重量级锁
+11. 死锁
+12. 轻量级与重量级锁
 
 **网络编程** 
 1. Socket 
@@ -110,7 +112,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 2. Thrift 
 3. Dubbo(Dubbox) 
 4. gPRC 
-5. Feign
+5. Feign(OpenFeign)
 6. RestTemplate
 
 **构建工具** 
@@ -185,8 +187,8 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 ### 07 JVM 
 1. 认识Java虚拟机(默认Hotspot实现) 
-2. 类加载机制(知道双亲委派机制) 
-3. 内存模型 
+2. 类加载机制(双亲委派机制) 
+3. 内存模型(JMM)
 4. GC 
 
 **调优** 
@@ -332,8 +334,8 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 #### **NoSQL** 
 1. MongoDB 
-2. ELK 
-3. 文档模型 
+2. Elastic Search
+3. 文档模型
 
 **分片** 
 
@@ -369,6 +371,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级别、锁、数据库设计、其它 
 
 **基础语法** 
+
 1. DDL（数据定义语言） 
 2. DML（数据操纵语言） 
 3. DCL（数据控制语言） 
@@ -408,7 +411,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. statement 
 4. preparestatement 
 5. resultset 
-6. 反射 
+6. 反射
 
 ##### TIDB
 
@@ -445,11 +448,11 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. 压力和容量测试 
 3. 测试用例 
 4. 白盒和黑盒 
-5. Junit3+mockito 
+5. Junit5+mockito 
 6. Spring Test 
 7. JCStress
 8. Jmeter
-9. 测试覆盖率
+9. 测试覆盖率（sonar）
 
 ### 13 项目管理 
 角色、成果、思路、技术栈 
@@ -469,6 +472,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. logback
 3. log4j
 4. commons logging
+5. 日志规范
 
 **单元测试** 
 1. Junit
@@ -492,10 +496,18 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 5. ones、teambition、tapd
 
 ### 14 安全 
-1. 单项散列算法:MD5 SHA 
-2. 对称加密:DES 
-3. 非对称加密:RSA、Https
-4. Web安全:跨站脚本攻击XSS、跨站请求伪造CSRF、SQL注入、敏感数据泄露、越权访问、失效的身份认证、Https
+1. 单项散列算法：MD5、SHA 
+2. 对称加密：DES 
+3. 非对称加密：RSA、Https
+4. Web安全
+   1. 跨站脚本攻击XSS
+   2. 跨站请求伪造CSRF
+   3. SQL注入
+   4. 敏感数据泄露
+   5. 越权访问
+   6. 失效的身份认证
+   7. Https
+   8. 防刷（滑动验证）
 
 ### 15 源码能力
 
@@ -532,7 +544,6 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 
 ### 16 前端技术 
 **HTML 和 Html5** 
-
 1. 网络传输三大基石 
 2. HTML的标准结构 
 3. HTML 的基本标签 
@@ -570,6 +581,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 4. Vue的组件使用
 5. Vue的属性监听
 6. Vue的高阶使用
+7. Electron+Vue 桌面应用开发
 
 ### 17 DevOps
 1. 容器化 
@@ -581,6 +593,8 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 4. 计算平台：实时+离线 
 5. 容灾,异地多活 
 6. Service Mesh（Sidecar）+Google Istio
+7. 优雅停机
+8. 监控工具(Skyworking、Grafana+Prometheus)
 
 ### 18 分布式系统 
 1. 服务拆分、调用、治理
@@ -596,9 +610,12 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 1. 服务注册与发现 
 2. Zookeeper 
 3. 架构 
+4. SOA
 
 **微服务** 
-Spring Cloud+Spring Boot、Dubbo、RPC、SOA 
+1. Spring Cloud+Spring Boot
+2. Dubbo
+3. RPC
 
 ### 19 负载均衡 
 1. 硬件:F5 
@@ -614,6 +631,10 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 4. Kafka 
 5. RocketMQ
 #### ELK
+1. Elasticsearch
+2. Logstash+Filebeat 
+3. Kibana
+
 #### Redis
 #### 数据库
 1. Shardingsphere
@@ -648,8 +669,8 @@ Spring Cloud+Spring Boot、Dubbo、RPC、SOA
 5. API与Webhook
 6. 小程序开发
 
-### 25 工具 
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
+### 25 工具集
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
 
 ### 26 软技能 
 1. 沟通
@@ -662,7 +683,6 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Nexus、SonarQu
 8. 英文文档
 
 ### **27 学历证书**
-敲门砖、如果牛逼可以考更多
 1. 提升学历
    1. 本科（统招）及以上的学历
    2. 在职（本科、研究生）
