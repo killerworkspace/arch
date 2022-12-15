@@ -232,13 +232,38 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 11. 最少知识原则（Least Knowledge）
 12. 增量/迭代方法（Incremental/Iterative Approach）
 
-**软件质量属性**
+**软件质量属性(质量效用树)**
+
 1. 可用性
 2. 可修改性
 3. 性能
 4. 安全性
 5. 可测试性
 6. 易用性
+
+**软件开发方法**
+   1. 结构化法
+   2. 原型法
+   3. 面向对象方法
+   4. 面向服务方法
+
+**软件调试**
+
+1. 蛮力法
+2. 回溯法
+3. 原因排除法：归纳和演绎以及二分法
+
+**软件测试**
+
+1. 单元测试、集成测试、确认测试、系统测试、回归测试 
+2. 压力和容量测试 
+3. 测试用例 
+4. 白盒和黑盒 
+5. Junit5+mockito 
+6. Spring Test 
+7. JCStress
+8. Jmeter
+9. 测试覆盖率（sonar）
 
 ### 09 设计原则和模式 
 #### **基本设计原则** 
@@ -288,6 +313,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 2. 线程池模式
 
 **云设计模式** 
+
 1. Ambassador(代表模式) 可用于以一种与语言无关的方式卸载常见客户端连接任务，如监视、记录、路由、安全（如 TLS）。
 2. Anti-corruption layer (防损层模式) 实现了新旧应用程序之间的外观，以确保新应用程序的设计不受遗留系统依赖性的限制。使用此模式可确保应用程序的设计不受限于对外部子系统的依赖。 此模式最先由 Eric Evans 在 Domain-Driven Design（域驱动的设计）中描述。
 3. Backends for Frontends (用于前端的后端模式) 创建单独的后端服务，供特定的前端应用程序或接口使用。 要避免为多个接口自定义一个后端时，此模式十分有用。后端为不同类型的客户端（如桌面和移动设备）创建单独的后端服务。这样，单个后端服务不需要处理各种客户端类型的冲突要求。通过分离客户特定的问题，这种模式可以帮助保持每个微服务的简单性。
@@ -443,31 +469,25 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 12. 暴力算法：汉诺塔问题、 八皇后问题、牛吃草问题、扑克牌问题、 字符串全排
 13. 动态规划：背包类问题、 顺序尝试题、 区间划分题、业务限制题、样本对应题、斐波那契题、 树形DP题、 数位DP题
 
-### 12 测试 
-1. 单元测试、集成测试、确认测试、系统测试、回归测试 
-2. 压力和容量测试 
-3. 测试用例 
-4. 白盒和黑盒 
-5. Junit5+mockito 
-6. Spring Test 
-7. JCStress
-8. Jmeter
-9. 测试覆盖率（sonar）
-
-### 13 项目管理 
+### 12 项目管理 
 角色、成果、思路、技术栈 
 
+#### 开发管理
+
 **开发规范** 
+
 1. 编程规约
 2. 异常日志
 3. 代码规范
 
 **安全规约** 
+
 1. MySQL数据库规约 
 2. 工程结构
 3. 设计规约
 
 **日志集成** 
+
 1. slf4j
 2. logback
 3. log4j
@@ -478,24 +498,43 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 1. Junit
 2. Mock
 
-**集成测试** 
-
 **代码检查** 
 1. sonarqube
 2. findbugs
 3. 阿里代码规范扫描
 
-**持续集成** 
-1. jenkins 
+#### 知识库管理
 
-**管理工具**
+1. confluence
+2. wiki
+3. 微信文档
+
+#### 测试管理
+
+1. 测试用例
+
+2. 测试分析
+
+#### 工单管理
+
+#### 效能管理
+
+#### 流水线管理
+
+1. 持续集成jenkins 
+
+
+#### 工时管理
+
+#### **管理工具**
+
 1. Jira
 2. Confluence
 3. 禅道
 4. Excel Online
 5. ones、teambition、tapd
 
-### 14 安全 
+### 13 安全 
 1. 单项散列算法：MD5、SHA 
 2. 对称加密：DES 
 3. 非对称加密：RSA、Https
@@ -509,7 +548,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
    7. Https
    8. 防刷（滑动验证）
 
-### 15 源码能力
+### 14 源码能力
 
 **基础源码阅读能力** 
 1. JDK源码
@@ -542,7 +581,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. 自动装配源码 
 3. 整合内嵌服务器（Tomcat、Jetty）源码 
 
-### 16 前端技术 
+### 15 前端技术 
 **HTML 和 Html5** 
 1. 网络传输三大基石 
 2. HTML的标准结构 
@@ -583,7 +622,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 6. Vue的高阶使用
 7. Electron+Vue 桌面应用开发
 
-### 17 DevOps
+### 16 DevOps
 1. 容器化 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
@@ -596,7 +635,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 7. 优雅停机
 8. 监控工具(Skyworking、Grafana+Prometheus)
 
-### 18 分布式系统 
+### 17 分布式系统 
 1. 服务拆分、调用、治理
 2. 从集中式到分布式 
 3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
@@ -617,12 +656,12 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. Dubbo
 3. RPC
 
-### 19 负载均衡 
+### 18 负载均衡 
 1. 硬件:F5 
 2. 软件:LVS 
 3. 客户端:Ribbon
 
-### 20 中间件 
+### 19 中间件 
 
 #### 消息队列 
 1. ZeroMQ 
@@ -640,14 +679,14 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 1. Shardingsphere
 2. MyCat
 
-### 21 通用框架处理 
+### 20 通用框架处理 
 1. 异常处理 
 2. SSO和跨域登录、登录信息传递
 3. 数据变更历史
 4. 幂等组件
 5. 多数据源组件
 
-### 22 系统架构设计
+### 21 系统架构设计
 1. 架构风格（五大架构风格）
 2. 设计模式
 3. 惯用法
@@ -655,13 +694,13 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 5. 架构评审--权衡点、风险点、敏感点
 6. 高可用架构
 
-### 23 性能优化
+### 22 性能优化
 1. 全链路延时，每个系统的链路延时
 2. 性能调优
 3. TPS和QPS目标
 4. 磁盘、IO、网络、CPU 影响 
 
-### **24 第三方对接** 
+### **23 第三方对接** 
 1. 企业微信 
 2. 微信 
 3. 短信
@@ -669,10 +708,10 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 5. API与Webhook
 6. 小程序开发
 
-### 25 工具集
+### 24 工具集
 Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
 
-### 26 软技能 
+### 25 软技能 
 1. 沟通
 2. 汇报
 3. 创新
@@ -682,7 +721,7 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus�
 7. 信息内化
 8. 英文文档
 
-### **27 学历证书**
+### **26 学历证书**
 1. 提升学历
    1. 本科（统招）及以上的学历
    2. 在职（本科、研究生）
