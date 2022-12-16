@@ -265,6 +265,15 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 8. Jmeter
 9. 测试覆盖率（sonar）
 
+**能力成熟度模型集成(CMMI)**
+
+1. 不完整级
+2. 初始级
+3. 已管理级
+4. 已定义级
+5. 量化管理级
+6. 优化级
+
 ### 09 设计原则和模式 
 #### **基本设计原则** 
 1. 单一职责的原则
