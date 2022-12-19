@@ -280,7 +280,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 2. 里氏替换原则
 3. 依赖倒置原则
 4. 接口隔离原则
-5. 迪米特原则
+5. 迪米特原则(最少知识原则)
 6. 开闭原则
 
 #### **设计模式** 
@@ -729,6 +729,7 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus�
 6. 思考
 7. 信息内化
 8. 英文文档
+9. 能力模型
 
 ### **26 学历证书**
 1. 提升学历
