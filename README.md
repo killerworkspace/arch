@@ -340,8 +340,10 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. gitMind
 5. Draw.io
 6. plantUML
+7. Mermaid
 
 **UML建模**
+
 1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图（依赖、泛化、实现、关联、聚合、组合）。
 2. 对象图：描述一组对象及他们之间的关系。描述了在类图中所建立的事物实例的静态快照。
 3. 构件图：描述一个封装的类和它的接口、端口、以及由内嵌的构件和连接件构成的内部结构。
