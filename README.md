@@ -156,11 +156,12 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **Spring** 
 1. Spring的IOC
-2. spring的AOP
+2. Spring的AOP
 3. Spring的设计模式
 4. Spring的事务处理
 5. Spring的动态处理
 6. Spring的基础源码
+7. SpEL(Spring Expression Language)
 
 **SpringMVC** 
 1. SpringMVC的实现原理
@@ -281,7 +282,8 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 3. 依赖倒置原则
 4. 接口隔离原则
 5. 迪米特原则(最少知识原则)
-6. 开闭原则
+6. 开闭原则(ocp)
+7. 合成复用原则
 
 #### **设计模式** 
 
@@ -307,7 +309,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 1. 责任链模式（Chain of Responsibility） 传递职责，请求，链接
 2. 命令模式（Command） 日志记录，可撤销
 3. 迭代器（Iterator） 数据集，顺序访问，不暴露内部
-4. 中介者模式（Mediator）不直接引用
+4. 中介者模式（Mediator）不直接引用(联合国)
 5. 备忘录模式（Memento） 游戏存档，保存，恢复
 6. 观察者模式（Observer）订阅、广播、联动，通知，自动更新
 7. 状态模式（State） 状态变成类
