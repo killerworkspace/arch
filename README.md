@@ -244,7 +244,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **软件开发方法**
    1. 结构化法（自顶向下）
-   2. 原型法
+   2. 原型法（需求不确定）
    3. 面向对象方法（自底向上）
    4. 面向服务方法（标准化）
 
@@ -346,7 +346,13 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **UML建模**
 
-1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图（依赖、泛化、实现、关联、聚合、组合）。
+1. 类图：描述一组类、接口、协作和他们之间的关系，是最常见的图。
+   1. 依赖关系
+   2. 关联关系
+   3. 聚合关系与组合关系
+   4. 实现关系
+   5. 泛化关系
+   6. [UML类图关系](https://segmentfault.com/a/1190000021317534)
 2. 对象图：描述一组对象及他们之间的关系。描述了在类图中所建立的事物实例的静态快照。
 3. 构件图：描述一个封装的类和它的接口、端口、以及由内嵌的构件和连接件构成的内部结构。
 4. 组合结构图：描述结构化类的内部结构，包括结构化类与系统其余部分的交互点。组合结构图用于画出结构化类的内部内容。
@@ -725,7 +731,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 6. 小程序开发
 
 ### 24 工具集
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm、Fiddler
 
 ### 25 软技能 
 1. 沟通
@@ -746,4 +752,4 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus�
    1. 软件设计师（软考中级）
    2. 系统分析师、系统架构设计师（软考高级）
    3. PMP、信息系统项目管理师（项目管理类）
-3. CET-4、CET-6
+   4. CET4及以上（英语类）
