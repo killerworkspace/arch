@@ -758,6 +758,16 @@ Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus�
    2. 在职研究生
 2. 证书
    1. 软件设计师（软考中级）
+   
    2. 系统分析师、系统架构设计师（软考高级）
+   
    3. PMP、信息系统项目管理师（项目管理类）
+   
    4. CET4及以上（英语类）
+   
+------
+
+ 来源：https://github.com/killerworkspace/arch   
+
+ 公众号：只喝牛奶的杀手
+
