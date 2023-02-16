@@ -678,6 +678,14 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 2. Dubbo
 3. RPC
 
+**分布式调度** 
+
+1. Jenkins
+2. xxl-job
+3. rundeck
+4. Scheduler
+5. 时间轮算法
+
 ### 18 负载均衡 
 1. 硬件:F5 
 2. 软件:LVS 
