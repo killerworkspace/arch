@@ -162,6 +162,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. Spring的动态处理
 6. Spring的基础源码
 7. SpEL(Spring Expression Language)
+8. SPI
 
 **SpringMVC** 
 1. SpringMVC的实现原理
