@@ -162,6 +162,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 5. Spring的动态处理
 6. Spring的基础源码
 7. SpEL(Spring Expression Language)
+8. SPI（APT）
 
 **SpringMVC** 
 1. SpringMVC的实现原理
@@ -715,6 +716,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. 数据变更历史
 4. 幂等组件
 5. 多数据源组件
+6. 元数据采集（API、Enum、Mq等）
 
 ### 21 系统架构设计
 1. 架构风格（五大架构风格）
