@@ -121,6 +121,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 **代码生成工具**
 1. mbg(MyBatis Generator)
+2. 低代码工具
 
 ### 06 框架 
 **集合框架** 
@@ -739,6 +740,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 4. 银企直联、支付网关
 5. API\Webhook\SPI
 6. 小程序开发
+7. RPA(Robotic process automation)
 
 ### 24 工具集
 Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm、Fiddler
