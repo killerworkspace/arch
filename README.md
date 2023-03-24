@@ -23,13 +23,17 @@
 7. REST
 
 ### 05 Java编程 
-**IDE：** 
+**IDE** 
 1. Eclipse 
 2. Intellij IDEA
 
-**版本控制：** 
+**版本控制** 
 1. Git(gitlab和github)
 2. Svn
+
+**AI Assist** 
+1. Tabnine(Codata)
+2. Copilot
 
 **Java基础：** 
 1. 基础语法和面向对象
@@ -39,6 +43,7 @@
 5. OOP:封装、继承、多态
 6. 抽象类与接口
 7. 浅拷贝与深拷贝
+8. Java引用：强引用（Strong）、软引用（Soft）、弱引用（Weak）、虚引用（Phantom）
 
 **网络编程** 
 1. 网络基础知识
