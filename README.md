@@ -29,7 +29,13 @@
 
 **版本控制** 
 1. Git(gitlab和github)
-2. Svn
+2. Git协同工作流
+   1. 中心式协同工作流
+   2. 功能分支协同工作流
+   3. GitFlow协同工作流
+   4. GitHub Flow协同工作流
+   5. GitLab Flow协同工作流
+3. Svn
 
 **AI Assist** 
 1. Tabnine(Codata)
