@@ -18,7 +18,7 @@
 2. 互联网协议
 3. TCP/IP/UDP
 4. Http1.1/2/0（状态码）
-5. HttpS
+5. Https
 6. OAuth 2.0
 7. REST
 
@@ -99,6 +99,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
    4. BlockingQueue
 11. 死锁
 12. 轻量级与重量级锁
+17. 互斥锁、自旋锁、读写锁、可重入锁、悲观锁、乐观锁
 
 **网络编程** 
 1. Socket 
@@ -406,6 +407,8 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. Storm/jStorm 
 5. DataHub
 6. Analytic DB-MySQL
+7. PolarDB
+8. DorisDB
 
 #### 关系数据库 
 1. 读写分离 
@@ -420,7 +423,13 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 
 ##### MySQL
 
-MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级别、锁、数据库设计、其它 
+1. MySQL引擎
+2. 分区表和分库分表
+3. SQL优化
+4. SQL注入
+5. 事务隔离级别
+6. 锁和MVCC
+7. 数据库设计规范
 
 **基础语法** 
 
@@ -652,7 +661,8 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 7. Electron+Vue 桌面应用开发
 
 ### 16 DevOps
-1. 容器化 
+1. 容器化
+   1. dev环境—docker hub 
 2. 虚拟化 
 3. Docker+Kubernetes(编排)
    1. Harbor
@@ -670,7 +680,10 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. 分布式事务：2PC、TCC、可靠消息、最大努力通知
 4. DDD
 5. 分布式Session 
-6. 分布式缓存 Redis 一致性 
+6. 三级缓存
+   1. JVM级别缓存（Guava Cache和Caffeine Cache）
+   2. 分布式缓存
+   3. DB缓存
 7. 分布式锁 Redisson 
 8. 分片、分区、副本
 
@@ -713,6 +726,11 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. Kibana
 
 #### Redis
+
+1. 主从+哨兵
+2. 分片集群社区方案 ->  Twemproxy、Codis（Redis 节点之间无通信，需要部署哨兵，可横向扩容）
+3. 分片集群官方方案 ->  Redis Cluster （Redis 节点之间 Gossip 协议，无需部署哨兵，可横向扩容）
+
 #### 数据库
 1. Shardingsphere
 2. MyCat
@@ -731,7 +749,7 @@ MySQL引擎、分区表、分库分表、SQL优化、SQL注入、事务隔离级
 3. 惯用法
 4. 遗留系统改造
 5. 架构评审--权衡点、风险点、敏感点
-6. 高可用架构
+6. 三高（高并发、高性能、高可用）架构
 
 ### 22 性能优化
 1. 全链路延时，每个系统的链路延时
