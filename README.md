@@ -222,7 +222,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 **生命周期**
 1. 立项：系统规划>>可行性分析与项目开发计划
 2. 开发：系统分析>>系统设计（概要设计和详细设计）>>系统实施>>系统验收
-3. 运维：系统运行与维护（持续集成、Jenkins）
+3. 运维：系统运行与维护（持续集成、Jenkins、Zadig）
 
 **软件过程模型**
 1. 瀑布模型
@@ -773,7 +773,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 7. RPA(Robotic process automation)
 
 ### 24 工具集
-Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm、Fiddler
+Evernote、有道云笔记、为知笔记、Atlassian、Gitlab、Github、Nexus、SonarQube、Jenkins、XXLJob、Zabbix、Webfunny、Nacos、Skywalking、Rabbitmq、Datahub、Superset、Yapi、CloudCanal、Kafka Manager、Zookeeper、Mysql、Redis、Nginx、Gulp、Postgresql、binddns、Neo4j、Mongodb、ELK、NFS、Postfix、Shadowsocks、JRebel、Apifox、electerm、Fiddler、飞书文档
 
 ### 25 软技能 
 1. 沟通
