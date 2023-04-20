@@ -191,6 +191,7 @@ Spring IOC、AOP、 SpringMVC、 MyBatis、 SpringBoot、Spring Security 、Nett
 4. 缓存机制
 5. 基础源码
 6. MyBatis-plus 的应用
+7. MyBatis-PageHelper
 
 **SpringBoot** 
 1. 基本使用
